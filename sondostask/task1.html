@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>the first task</title>
+        <style> form{
+            background-color: bisque;
+            border: 1px solid black;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>fist task </h1>
+        <hr>
+        <form>
+            <br>
+            <label for="name"><b>Full Name</b></label>
+            <input type="text" id="name" required>
+            <br>
+            <br><label for="email"><b>your Email</b></label>
+            <input type="email" name="email"  id="email" autocapitalize="off"  pattern=".*@" required>
+            <br>
+            <br> <label for="Password"><b>Password</b></label>
+            <input type="password" name="Password"  id="password" minlength="8" required>
+            <br>
+            <br><label for="Phone "><b>Phone number</b></label>
+            <input type="number" name="phone " id="Phone " min="0" required>
+            <br>
+            <br><label for=" Birth"><b>Date of Birth</b></label>
+            <input type="date" name=" Birth" id=" Birth"max="2030-20-31">
+            <br>
+            <br><label for="contry"><b>you contry</b>
+                <select id="contry" name="contry" >
+                    <option value="Algeria">Algeria</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="iraq">iraq</option>
+                    <option value="jordan">jordan</option>
+                    <option value="Morocco">Morocco</option>
+                    <option value="Kuwait">Kuwait</option>
+                </select>
+            <hr>
+            <h4>Plane<h4>
+            <label for="Free">Free</label>
+            <input type="radio" id="Free" name="plane">
+            <label for="Pro">Pro</label>
+            <input type="radio" id="Pro" name="plane">
+            <hr>
+            <br><label for="agree">I agree to terms and conditions  </label>
+            <input type="checkbox" id="agree"> 
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
+
